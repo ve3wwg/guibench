@@ -6,7 +6,6 @@ should call C functions:
 
 	clear_window()
 	draw_point()
-and
 	get_pixel()
 
 	as necessary (see app.h).
