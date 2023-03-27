@@ -24,6 +24,17 @@ USAGE:
 		-y is number of pixels high (default 192)
 		-h is this help.
 
+WINDOW EVENTS:
+--------------
+
+    The following X11 Window events are processed by main.cpp, apart
+    from your MCU test code:
+
+    1. Mouse click adds a black pixel, or white (cleared) pixel, depending
+       upon current state. Initial state is to add black pixels.
+    2. Typing 'x' toggles been black and white for #1 above.
+    3. Typing 'q' quits guibench execution.
+
 NOTES:
 ------
     1. For high resolution screens, choose --multi (-m) value > 1 to double
