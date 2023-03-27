@@ -16,13 +16,13 @@ support function for development (if used).
 USAGE:
 ------
 
-./guibench --help
-Usage: guibench [--multi('m')=m] [--width(x)=n] [--height(y)=n] [--help(h)]
-where:
-	-m is number of pixels (default 1)
-	-x is number of pixels wide (default 192)
-	-y is number of pixels high (default 192)
-	-h is this help.
+	./guibench --help
+	Usage: guibench [--multi('m')=m] [--width(x)=n] [--height(y)=n] [--help(h)]
+	where:
+		-m is number of pixels (default 1)
+		-x is number of pixels wide (default 192)
+		-y is number of pixels high (default 192)
+		-h is this help.
 
 NOTES:
 ------
