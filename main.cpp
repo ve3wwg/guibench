@@ -91,7 +91,7 @@ main(int argc,char **argv) {
 			{
 				int optval{atoi(optarg)};
 
-				if ( optarg > 0 )
+				if ( optval > 0 )
 					pixel_multiplier = optval;
 			}
 			break;
@@ -99,7 +99,7 @@ main(int argc,char **argv) {
 			{
 				int optval{atoi(optarg)};
 
-				if ( optarg > 0 )
+				if ( optval > 0 )
 					win_x = optval;
 			}
 			break;
@@ -107,7 +107,7 @@ main(int argc,char **argv) {
 			{
 				int optval{atoi(optarg)};
 
-				if ( optarg > 0 )
+				if ( optval > 0 )
 					win_y = optval;
 			}
 			break;
@@ -226,7 +226,7 @@ init_x() {
 
 	pixels = (uint8_t*)malloc(win_x*win_y);
 	memset(pixels,0,win_x * win_y);
-};
+}
 
 //////////////////////////////////////////////////////////////////////
 // Close down TestBench and app
